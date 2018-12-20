@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>翔宇检索后台</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <span>翔宇检索后台</span>
+    </div>
+    <div class="background">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="background"> -->
+                <div class="w">
+                    <div class="col-md-12">
+                    	<p class="login-title">
+                    		<span class="login-title-text">请登录</span>
+                    	</p>
+                        <div class="input-group text-box">
+                            <span class="input-group-addon">用户名</span>
+                            <input type="text" class="form-control" id="username" placeholder="请输入用户名" />
+                        </div>
+                        <div class="input-group text-box">
+                            <span class="input-group-addon">密&nbsp;&nbsp;&nbsp;码</span>
+                            <input type="password" class="form-control" id="password" placeholder="请输入密码">
+                        </div>
+                        <div class="input-group text-box">
+                            <span class="input-group-addon">验证码</span>
+                            <input style="width:200px;height:38px" type="text" class="form-control" id="scode" placeholder="请输入验证码">
+                            <!-- <canvas class="scode-pic"></canvas> -->
+                            <img class="scode-pic">
+                        </div>
+                        <div class="button-group text-box">
+                            <button class="btn" id="login">登录</button>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./xys.js"></script>
+<script type="text/javascript" src="./login.js"></script>
+
+</html>

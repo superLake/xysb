@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>翔宇致歉信息后台-列表</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- 	
+id,
+dtname,
+cpname,
+penaltyid,
+publishtime,
+officename,
+pagelayout,
+pagesize,
+articleurl,
+articletitle 
+-->
+	<div class="header">
+		<span>翔宇检索后台</span>
+	</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="form-group">
+                    <label for="id">序号:</label>
+                    <input id="id" class="form-control inputtext" type="text" name="id" readonly="true">
+                </div>
+                <div class="form-group">
+                    <label for="dtname">处罚部门名称:</label>
+                    <input id="dtname" class="form-control inputtext" type="text" name="dtname">
+                </div>
+                <div class="form-group">
+                    <label for="cpname">企业名称:</label>
+                    <input id="cpname" class="form-control inputtext" type="text" name="cpname">
+                </div>
+                <div class="form-group">
+                    <label for="penaltyid">处罚决定书文号:</label>
+                    <input id="penaltyid" class="form-control inputtext" type="text" name="penaltyid">
+                </div>
+                <div class="form-group">
+                    <label for="publishtime">登报日期:(YYYY-MM-DD)</label>
+                    <input id="publishtime" class="form-control inputtext" type="text" name="publishtime">
+                </div>
+                <div class="form-group">
+                    <label for="officename">登报报社名称:</label>
+                    <input id="officename" class="form-control inputtext" type="text" name="officename">
+                </div>
+                <div class="form-group">
+                    <label for="pagelayout">登报版面:</label>
+                    <input id="pagelayout" class="form-control inputtext" type="text" name="pagelayout">
+                </div>
+                <div class="form-group">
+                    <label for="pagesize">登报尺寸:</label>
+                    <input id="pagesize" class="form-control inputtext" type="text" name="pagesize">
+                </div>
+                <div class="form-group">
+                    <label for="articleurl">文章地址:</label>
+                    <input id="articleurl" class="form-control inputtext" type="text" name="articleurl">
+                </div>
+                <div class="form-group">
+                    <label for="articletitle">文章标题:</label>
+                    <input id="articletitle" class="form-control inputtext" type="text" name="articletitle">
+                </div>
+                <div class="button-group">
+                    <button class="btn" id="update">确认修改</button>
+                    <button class="btn" id="back">返回上一页</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./xys.js"></script>
+<script type="text/javascript" src="./detail.js"></script>
+</html>
